@@ -115,6 +115,13 @@ body{
   outline: 0;
 }
 
+.email:not(:placeholder-shown), .password:not(:placeholder-shown){
+  background: #929191;
+  color: #fff;
+  font-size: 12px;
+  outline: 0;
+}
+
 .checkbox label{
   margin-top: 21px;
   padding-left: 25px;
